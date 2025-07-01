@@ -2,7 +2,7 @@ package Arrays;
 
 public class RemovingEvenIntegers {
     public static void main(String[] args) {
-        int[] num = {1, 20, 30, 40, 5, 60};
+        int[] num = {3,2,4,7,10,6,5};
         System.out.print("Before removing even elements ");
         for (int a = 0; a < num.length; a++) {
             System.out.print(num[a]+" ");
@@ -13,6 +13,5 @@ public class RemovingEvenIntegers {
                 System.out.print(num[i]+" ");
             }
         }
-
     }
 }
